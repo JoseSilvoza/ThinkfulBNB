@@ -61,11 +61,12 @@ header {
 header nav {
   display: flex;
   justify-content: center;
+  
 }
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -78,6 +79,8 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 0 20px 0 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header nav ul li a:hover {
@@ -144,6 +147,11 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 30px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 72px;
   }
 
   form {
